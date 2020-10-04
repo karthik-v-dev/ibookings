@@ -1,0 +1,59 @@
+#Containers::after {
+    content: "";
+    clear: both;
+    display: table;
+    width: 100%;
+
+
+}
+
+.but3 {
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1.5px solid rgb(206, 203, 203);
+    margin: 10px;
+
+}
+
+.fab {
+    font-size: 48px;
+}
+
+#lefts {
+    float: left;
+    width: 48%;
+    text-align: center;
+    height: 400px;
+
+}
+
+
+
+#rights {
+    float: left;
+    width: 48%;
+    text-align: left;
+    height: 400px;
+
+    padding-top: 110px !important;
+
+
+}
+
+.navbar-brand img:hover,
+#lefts img:hover {
+    box-shadow: none !important;
+}
+
+#lefts,
+
+#rights {
+    margin: 0px 10px;
+
+    padding: 0px 10px;
+}
+
+.setborder {
+    width: 30%;
+    justify-content: end;
+}

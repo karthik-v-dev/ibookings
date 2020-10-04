@@ -1,0 +1,65 @@
+#Containers::after {
+    content: "";
+    clear: both;
+    display: table;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+#Left {
+    float: left;
+    width: 48%;
+    color: whitesmoke;
+    height: 300px;
+
+}
+
+
+
+#Right {
+    float: left;
+    width: 48%;
+    text-align: right;
+    height: 300px;
+    text-align: center;
+
+}
+
+#Left,
+
+#Right {
+    margin: 100px 10px;
+
+    padding: 0px 10px;
+}
+
+.butts {
+    background-color: #ffffff;
+    /* White */
+    border: none;
+    color: darkgray;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 16px;
+
+
+
+}
+
+.butts:hover {
+    background-color: #ffffff !important;
+    /* White */
+    border: none !important;
+    color: darkgray !important;
+    padding: 12px 20px !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    border-radius: 10px !important;
+    font-size: 16px !important;
+}

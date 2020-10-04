@@ -1,0 +1,107 @@
+.RESP::after,
+#Containers::after {
+    content: "";
+    clear: both;
+    display: table;
+    width: 100%;
+
+
+}
+
+#Lefts {
+    float: left;
+    width: 50%;
+
+    height: auto;
+
+}
+
+
+
+#Rights {
+    float: left;
+    width: 38%;
+    text-align: right;
+    height: auto;
+
+}
+
+#Lefts,
+
+#Rights {
+    margin: 10px 10px;
+
+
+}
+
+.setRight {
+    float: right;
+    font-size: xx-large;
+
+}
+
+
+
+.panel {
+
+    background-color: #ffffff;
+    /* White */
+    border: none;
+    font-size: 24px;
+    text-align: justify;
+    padding: 24px 10px;
+    display: inline-block;
+    border-radius: 10px;
+    width: 85%;
+
+}
+
+.arrow {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.special {
+    padding: 10px 10px;
+    display: inline-block;
+    border-radius: 10px;
+    width: 58%;
+
+}
+
+.LEFT {
+    float: left;
+    width: 50%;
+    display: block;
+    height: auto;
+}
+
+.RIGHT {
+    float: left;
+    width: 50%;
+    display: block;
+    height: auto;
+}
+
+.same {
+    width: 195px;
+    height: 130px;
+}
+
+.change {
+    width: 195px;
+    height: 300px;
+}
+
+.comman {
+    width: 195px;
+    height: 150px;
+}
+
+.same,
+.change,
+.comman {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0px 2px 10px 0px rgba(0, 0, 0, 0.12);
+}

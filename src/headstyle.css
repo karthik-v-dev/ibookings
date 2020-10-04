@@ -1,0 +1,99 @@
+.navbar {
+    box-sizing: border-box;
+
+
+}
+
+.nav-right {
+    float: right;
+    margin-right: 30px;
+}
+
+
+
+#sz {
+    font-size: 2rem !important;
+    text-align: left;
+}
+
+.nav-right li {
+
+    padding-right: 30px;
+}
+
+.navbar-toggler {
+    border-color: transparent !important;
+
+}
+
+.navbar-brand {
+    padding-left: 5% !important;
+    padding-top: 0.3125% !important;
+}
+
+.collapse {
+    padding-top: 0.93% !important;
+}
+
+
+@media(max-width: 992px) {
+    #hid {
+        visibility: hidden !important;
+    }
+}
+
+@media (min-width: 768px) {
+    #hid {
+        visibility: hidden !important;
+    }
+
+    body {
+        overflow-x: hidden !important;
+    }
+}
+
+@media (min-width: 992px) {
+    #hid {
+        visibility: visible !important;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .navbar-expand-lg .navbar-nav {
+        -ms-flex-direction: row !important;
+        flex-direction: row;
+    }
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    text-decoration: none;
+    background-color: transparent !important;
+}
+
+.stic {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    top: 0;
+
+
+}
+
+img:hover,
+button:hover,
+.owl-next span:hover,
+.owl-prev span:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+        0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Crimson Text', serif;
+    font-size: 18px;
+}
