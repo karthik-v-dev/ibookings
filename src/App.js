@@ -38,6 +38,7 @@ class App extends React.Component {
 								alt='logo'
 								width='150'
 								height='40'
+								className='imgres'
 							></img>
 						</a>
 						<button

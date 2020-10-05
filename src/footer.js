@@ -18,6 +18,7 @@ function Footer() {
 							<button className='but2'>Customer</button>
 						</span>
 					</div>
+
 					<div id='center1'>
 						<h4>Company</h4>
 						<p>Search Item</p>
@@ -25,6 +26,7 @@ function Footer() {
 						<p>Business Profile</p>
 						<p>Cantact</p>
 					</div>
+
 					<div id='corner'>
 						<h4>Leagal Stuff</h4>
 						<p> Privacy Policy</p>

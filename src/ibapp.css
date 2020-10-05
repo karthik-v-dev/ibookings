@@ -1,10 +1,29 @@
 #Containers::after {
     content: "";
     clear: both;
-    display: table;
-    width: 100%;
+    display: contents;
+    width: Calc(100%-15px);
+    height: auto;
+    padding: 20px;
 
 
+}
+
+#lefts,
+#rights {
+    width: 50%;
+    float: left;
+    justify-content: center;
+}
+
+#lefts {
+    text-align: center;
+}
+
+
+#rights {
+
+    margin-top: 50px;
 }
 
 .but3 {
@@ -16,44 +35,19 @@
 }
 
 .fab {
-    font-size: 48px;
-}
-
-#lefts {
-    float: left;
-    width: 48%;
-    text-align: center;
-    height: 400px;
-
+    font-size: 3vw;
 }
 
 
 
-#rights {
-    float: left;
-    width: 48%;
-    text-align: left;
-    height: 400px;
 
-    padding-top: 110px !important;
-
-
+#lefts img {
+    width: 50%;
+    height: auto;
 }
+
 
 .navbar-brand img:hover,
 #lefts img:hover {
     box-shadow: none !important;
-}
-
-#lefts,
-
-#rights {
-    margin: 0px 10px;
-
-    padding: 0px 10px;
-}
-
-.setborder {
-    width: 30%;
-    justify-content: end;
 }

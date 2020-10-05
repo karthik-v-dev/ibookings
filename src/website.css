@@ -1,9 +1,9 @@
-#Containers::after {
+#Container::after {
     content: "";
     clear: both;
-    display: table;
+    display: contents;
     width: 100%;
-    text-align: center;
+    text-align: left;
 
 
 }
@@ -12,7 +12,7 @@
     float: left;
     width: 48%;
     color: whitesmoke;
-    height: 300px;
+
 
 }
 
@@ -21,18 +21,19 @@
 #Right {
     float: left;
     width: 48%;
-    text-align: right;
-    height: 300px;
-    text-align: center;
+
 
 }
 
+p {
+    font-size: 2vw !important;
+    font-family: 'Suravaram', serif !important;
+}
+
 #Left,
-
 #Right {
-    margin: 100px 10px;
+    margin: 5% 1%;
 
-    padding: 0px 10px;
 }
 
 .butts {
@@ -45,7 +46,7 @@
     text-decoration: none;
     display: inline-block;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 1.5vw;
 
 
 
@@ -61,5 +62,5 @@
     text-decoration: none !important;
     display: inline-block !important;
     border-radius: 10px !important;
-    font-size: 16px !important;
+    font-size: 1.5vw !important;
 }

@@ -1,3 +1,31 @@
+* {
+    margin: 0;
+    border: 0;
+
+}
+
+
+
+.imgres {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    overflow-x: hidden;
+
+
+}
+
+.container-fluid {
+    padding: auto 0px !important;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
 .navbar {
     box-sizing: border-box;
 
@@ -90,10 +118,10 @@ button:hover,
 }
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 p {
     font-family: 'Crimson Text', serif;
-    font-size: 18px;
+    font-size: 1.1vw;
 }

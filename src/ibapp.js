@@ -26,14 +26,13 @@ export default function Ibapp() {
 							<div style={{ float: 'right' }}>
 								<small
 									style={{
-										fontSize: '10px',
-										lineHeight: '2.0',
+										fontSize: '.7vw',
 									}}
 								>
 									Get it on the Now
 								</small>
 								<br />
-								<b style={{ fontSize: '14px' }}>Google App</b>
+								<b style={{ fontSize: '1vw' }}>Google App</b>
 							</div>
 						</button>
 					</span>
@@ -45,14 +44,13 @@ export default function Ibapp() {
 							<div style={{ float: 'right' }}>
 								<small
 									style={{
-										fontSize: '10px',
-										lineHeight: '2.0',
+										fontSize: '.7vw',
 									}}
 								>
 									Download on the{' '}
 								</small>
 								<br />
-								<b style={{ fontSize: '14px' }}>Play Store</b>
+								<b style={{ fontSize: '1vw' }}>Play Store</b>
 							</div>
 						</button>
 					</span>

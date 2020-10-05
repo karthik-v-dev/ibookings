@@ -9,13 +9,6 @@ export class Planing extends Component {
 		return (
 			<div className='card-shadow'>
 				<div>
-					<div
-						className='row title'
-						style={{ marginBottom: '20px' }}
-					></div>
-				</div>
-
-				<div>
 					<OwlCarousel
 						items={5}
 						className='owl-theme'

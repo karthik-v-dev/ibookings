@@ -1,14 +1,10 @@
-.title {
-    margin-bottom: 20px;
-
-    padding: 20px;
-}
-
 .img {
     height: 140px;
     max-width: 220px;
 
 }
+
+
 
 .owl-next:hover,
 .owl-pre:hover {
@@ -22,7 +18,7 @@ button:hover {
 
 .owl-next span,
 .owl-prev span {
-    font-size: 20px;
+    font-size: 1.5vw;
     background-color: yellowgreen;
     padding: 25px;
     color: white;

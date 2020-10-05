@@ -17,22 +17,35 @@
 }
 
 
-
+@media(max-width:1200px) {
+    .FqnKTc {
+        visibility: hidden;
+    }
+}
 
 
 .FqnKTc {
-    font-size: 30px;
+    font-size: 2.1vw;
     opacity: .5;
 
 }
 
+.row {
+    width: Calc(100%-15px);
+}
+
+.table {
+    width: 60%;
+}
+
 .form-Control {
     border: 0 !important;
-    width: 240px;
+    width: 35%;
     outline: none !important;
     transition: none !important;
     padding: 9px 2px;
-    caret-color: tomato;
+    caret-color: rgb(71, 8, 245);
+    font-size: 1.2vw;
     margin-left: 10px !important;
 }
 
@@ -45,6 +58,7 @@
 
 .bg-white {
     border-radius: 12px;
+    width: 100%;
 }
 
 th {
@@ -54,16 +68,18 @@ th {
 .row {
     margin-left: auto !important;
     margin-right: auto !important;
-    padding: 23%;
+    width: 100%;
+    padding-top: 23%;
 
 }
 
 
+
 .gly {
 
-    height: 35px;
-    width: 35px;
-    margin: 18px 0px 0px 25px;
+    height: 2%;
+    width: 2%;
+
 }
 
 
@@ -73,13 +89,16 @@ th {
     background-color: rgb(255, 63, 5);
     border: none;
     color: white;
-    padding: 10px 25px;
+    width: 20%;
+    height: 5vh;
     text-align: center;
+    justify-content: center;
+    margin: 8px;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.2vw;
 
-    margin: 4px 2px;
+
     cursor: pointer;
     border-radius: 12px;
 }

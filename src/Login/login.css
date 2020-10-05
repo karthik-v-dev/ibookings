@@ -5,18 +5,17 @@
 	width: 100%;
 	text-align: center;
 }
+
 .back {
-	background: linear-gradient(
-		180deg,
-		#ffffff,
-		#ffffff,
-		#b0efe1,
-		#88eee7,
-		#6de9f8,
-		#81deff,
-		#a4d1ff,
-		#c3c3f6
-	);
+	background: linear-gradient(180deg,
+			#ffffff,
+			#ffffff,
+			#b0efe1,
+			#88eee7,
+			#6de9f8,
+			#81deff,
+			#a4d1ff,
+			#c3c3f6);
 }
 
 .btn-dark {
@@ -29,7 +28,7 @@
 
 .reds {
 	color: rgb(221, 13, 13);
-	font-size: 20px;
+	font-size: 1.2px;
 }
 
 #Lef {
@@ -69,7 +68,7 @@
 	text-decoration: none;
 	display: inline-block;
 	border-radius: 10px;
-	font-size: 16px;
+	font-size: 1vw;
 }
 
 .butts:hover {
@@ -82,5 +81,5 @@
 	text-decoration: none !important;
 	display: inline-block !important;
 	border-radius: 10px !important;
-	font-size: 16px !important;
+	font-size: 1vw !important;
 }

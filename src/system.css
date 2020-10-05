@@ -1,43 +1,35 @@
-#container {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 70px;
-    display: table;
-
-}
-
-#left {
-    float: left;
-    width: 40%;
-    height: 100px;
-
-}
-
-#center {
-    display: inline-block;
-    width: 25%;
-    height: 100px;
-
-}
-
-#right {
-    float: right;
-    width: 25%;
-    height: 100px;
-
+#container:after {
+    width: Calc(100%-15px);
+    display: contents;
+    content: "";
+    height: auto;
 }
 
 #left,
 #center,
 #right {
-    margin: 70px 10px;
+    float: left;
+
     text-align: left;
-    padding: 0px 10px;
+    justify-content: center;
 }
 
-.clr::after {
 
-    content: "";
-    clear: both;
+#left {
+    width: 50%;
+
+
+}
+
+#center,
+#right,
+#left {
+    margin: 5% 0%;
+}
+
+#center,
+#right {
+    width: 25%;
+
 
 }

@@ -6,8 +6,8 @@ export default function Serchimg() {
 			<div className='Search'>
 				<div className='row'>
 					<table
-						class='table table-borderless table-responsive'
-						style={{ margin: ' 0px auto' }}
+						class='table table-borderless '
+						style={{ margin: ' 0px auto', textAlign: 'center' }}
 					>
 						<thead>
 							<tr>
@@ -23,7 +23,7 @@ export default function Serchimg() {
 										<input
 											type='text'
 											className='form-Control '
-											placeholder='What would you like to book'
+											placeholder='Location'
 										/>
 										<span className='glyphicon glyphicon-screenshot  gly'></span>
 										<span className='  FqnKTc'>|</span>
